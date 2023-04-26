@@ -1,0 +1,17 @@
+name: BUILD HAHA
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+Jobs:
+  amogus:
+    runs-on: ubuntu-lastest
+
+    steps:
+      uses: actions/checkout@v3
+
+      - name: echo
+        run: echo 'lol'
