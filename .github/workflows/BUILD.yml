@@ -6,7 +6,7 @@ on:
 
   workflow_dispatch:
 
-Jobs:
+jobs:
   build-android:
     runs-on: ubuntu-lastest
 
