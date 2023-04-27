@@ -13,9 +13,6 @@ Jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: echo
-      run: echo amogus
-
     - name: install python haha
       run: |
         sudo apt-get update
