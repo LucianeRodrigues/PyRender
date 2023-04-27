@@ -11,7 +11,12 @@ Jobs:
     runs-on: ubuntu-lastest
 
     steps:
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: echo
-        run: echo amogus
+    - name: echo
+      run: echo amogus
+
+    - name: install python haha
+      run: |
+        sudo apt-get update
+        sudo apt-install python
